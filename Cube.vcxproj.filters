@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Components\source\Keyboard.cpp" />
+    <ClCompile Include="Components\Source\main.cpp" />
+    <ClCompile Include="Components\Source\Matrix4.cpp" />
+    <ClCompile Include="Components\source\Utility.cpp" />
+    <ClCompile Include="Components\Source\Vector3.cpp" />
+    <ClCompile Include="Components\Source\Vector4.cpp" />
+    <ClCompile Include="Components\Source\window.cpp" />
+    <ClCompile Include="Components\source\Ball.cpp" />
+    <ClCompile Include="Components\source\Object.cpp" />
+    <ClCompile Include="Components\source\World.cpp" />
+    <ClCompile Include="Components\source\Cube.cpp" />
+    <ClCompile Include="Components\source\Base.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\include\Config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\DataType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Keyboard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Matrix4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Utility.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Vector3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Vector4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Window.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Ball.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Object.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Cube.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\World.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Base.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{f62fa3d3-eacf-4cff-8d70-912b9f6b78e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
