@@ -72,6 +72,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>./Components/include;$(IncludePath)</IncludePath>
     <SourcePath>./Components/source;$(SourcePath)</SourcePath>
+    <LibraryPath>./Components/lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>Release\</OutDir>
